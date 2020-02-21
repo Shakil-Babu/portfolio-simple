@@ -1,0 +1,134 @@
+* {
+    margin: 0px;
+   
+  }
+  
+  body {
+    font-family: "Poppins", sans-serif;
+  }
+  
+  /* HomeSection start here */
+  #HomeSection {
+    
+    background: url(../assets/top-banner.png) no-repeat;
+    background-position: left;
+   
+  }
+  section{
+      height: 500px;
+      width: 100%;
+      margin-bottom: 300px;
+  }
+  
+  .halfSection {
+    width: 40%;
+    margin-left: 4%;
+    padding-left: 2%;
+    float: left;
+  }
+  
+  
+  
+  h1 {
+    font-size: 60px;
+    color: black;
+    padding-top: 40px;
+    font-weight: 50;
+  }
+  
+  
+  
+  #HomeSection .halfSection h1 span {
+    color: orange;
+    font-family: 'Akronim', cursive;
+  }
+  
+  
+  .halfSection h2 {
+    color: black;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    font-weight: 500;
+    font-size: 25px;
+    
+  }
+  
+  .halfSection p {
+    color: dimgray;
+    margin-bottom: 30px;
+    font-size: 20px;
+  }
+  .halfSection .button {
+    background-image: linear-gradient(45deg, lightSalmon, tomato);
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 700;
+    padding: 16px 25px;
+    border-radius: 5px;
+    font-size: 20px;
+  }
+  
+  #HomeSection .halfSection img {
+    width: 100%;
+    padding-left: 20px;
+  }
+  
+  /* dreamSection start here */
+  
+  #dreamSection {
+    
+    background-image: url(../assets/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+   
+  }
+  
+  #dreamSection .halfSection img {
+    width: 100%;
+  }
+  
+  /* experiencesSection start here */
+  #experiencesSections {
+    
+    background-image: url(../assets/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    
+    height: 600px;
+  }
+  
+  .halfSectionex{
+      width: 40%;
+      margin-left: 4%;
+      padding-left: 2%;
+      float: left;
+      background-color: white;
+      box-shadow:10px 10px 40px gray;
+      height: 90%;
+      
+      border-left:10px solid orange;
+  }
+ 
+  .halfSectionex2{
+      width: 40%;
+      margin-left: 4%;
+      padding-left: 2%;
+      float: left;
+      background-color: white;
+      box-shadow:10px 10px 40px gray;
+      height: 90%;
+    border-left: 10px solid blue;
+  }
+
+  /* footer section  */
+  footer{
+      text-align:center;
+      color:dimgray;
+      padding-bottom: 15px;
+  }
+
+  /* End this project  */
+ 
+
+  
